@@ -3,15 +3,9 @@
 :root{
     --blue: #52b8d1;
     --black: #1f283f;
-    --light-color: #666;
-    --box-shadow: .5rem .5rem 0 rgba(22,160,133,.2);
-    --text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
-    --border: .2rem solid var(--blue);
     --background: #fff;
     --background-even-child: #eee;
-    --white-blog: #fff;
-    --btn-blue: #67d3ee;
-    --nav-link-color: #fff;
+  
 
    
 }
@@ -75,18 +69,18 @@ body{
   }
   #pic1 {
     animation-delay: 0s;
-    background-image: url('/images/a1.jpg');
+    background-image: url('./images/a1.jpg');
   }
   #pic2 {
-    background-image: url('/images/a2.jpg');
+    background-image: url('./images/a2.jpg');
     animation-delay: 5s;
   }
   #pic3 {
-    background-image: url('/images/a3.jpg');
+    background-image: url('./images/a3.jpg');
     animation-delay: 10s;
   }
   #pic4 {
-    background-image: url('/images/a4.jpg');
+    background-image: url('../images/a4.jpg');
     animation-delay: 20s;
   }
   @-webkit-keyframes fade {
