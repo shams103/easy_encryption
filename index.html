@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption Plain Text</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="home">
+
+        <div className='container'>
+            <div class='pic' id='pic4'></div>
+            <div class='pic' id='pic3'></div>
+            <div class='pic' id='pic2'></div>
+            <div class='pic' id='pic1'></div>
+        </div>
+
+        <div class="content">
+
+            <div class="box-container-columnar-cipher">
+                <h2>Columnar Transposition Cipher Encryption</h2>
+
+                <button class="btnZ" id="btn1" onclick="Text1()">Decrypt</button>
+
+                <div class="inner-box" id="card1">
+
+                    <div class="encrypt">
+                        <input type="text" id="TranEnc" placeholder="Enter plain text here..." required>
+                        <button class="btn" id="btnEnc" onclick="Transe()">Encrypt</button>
+                    </div>
+
+                    <div class="decrypt">
+                        <input type="text" id="TranDec" placeholder="Enter cipher text here..." required>
+                        <button class="btn" id="btnDec" onclick="Transd()">Decrypt</button>
+                    </div>
+
+                </div>
+
+                    <div id="showCipherA" class="cipherA">
+
+                </div>
+
+            </div>
+
+            <div class="box-container-caeser-cipher">
+                <h2>Caeser Cipher Encryption</h2>
+
+
+                <button class="btnZ" id="btn2" onclick="Text2()">Decrypt</button>
+
+                <div class="inner-box" id="card2">
+
+                    <div class="encrypt" id="encrypt">
+                        <input type="text" id="CaeserEnc" placeholder="Enter plain text here..." required>
+                        <button class="btn" id="btnEnc" onclick="Csce()">Encrypt</button>
+                    </div>
+
+
+                    <div class="decrypt" id="decrypt">
+                        <input type="text" id="CaeserDec" placeholder="Enter cipher text here..." required>
+                        <button class="btn" id="btnDec" onclick="Cscd()">Decrypt</button>
+                    </div>
+
+                </div>
+
+                    <div id="showCipherB" class="cipherB"></div>
+                   
+
+            </div>
+
+            <div class="box-container-railFence-cipher">
+                <marquee behavior="scroll" direction="right" class="coming">Happy New Year 2023, Coming Soon...</marquee>
+                <h2>Rail Fence Cipher Encryption</h2>
+
+                <button class="btnZ" id="btn3" onclick="Text3()">Decrypt </button>
+
+                <div class="inner-box" id="card3">
+
+                    <div class="encrypt">
+                        <input type="text" placeholder="Enter plain text here...">
+                        <button class="btn" id="btn">Encrypt</button>
+                    </div>
+
+                    <div class="decrypt">
+                        <input type="text" placeholder="Enter cipher text here...">
+                        <button class="btn" id="btn">Decrypt</button>
+                    </div>
+
+                </div>
+
+                
+                    <div id="showCipherC" class="cipherC">
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <marquee behavior="" direction="">Designed and created by Team <span>Wa'ard-bis-Saqa'af </span> &copy 2022</marquee>
+
+
+    <!-- custom js link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
