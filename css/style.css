@@ -247,13 +247,11 @@ body{
 
 
   .cipherB, .cipherA{
-   
-    display: none;
-    position: relative;
-  }
+       display: none;
+    }
 
-  #showCipherB h3, #showCipherA h3{
-    
+  #showCipherB, #showCipherA{
+    position: relative;
     font-size: 1.5rem;
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
@@ -267,16 +265,16 @@ body{
 
  .bbtn{
     position: absolute;
-    /* border: 2px solid red; */
+    border: 2px solid #000;
     background: #000;
-    right: 8rem;
-    margin-top: -4rem;
+    right: 0;
+    top: 0;
   
    
 }
 
 .bbtn i{
-    padding: 0.9rem 3rem;
+    padding: 1rem 3rem;
     color: #eee;
     cursor: pointer;
     font-size: 2rem;
@@ -343,7 +341,7 @@ marquee span{
     }
 
   .box-container-columnar-cipher, .box-container-caeser-cipher, .box-container-railFence-cipher{
-      padding: 1rem 5% 0;
+      padding: 1rem 5% 1rem;
       margin-bottom: 3rem;
      
     }
@@ -352,6 +350,18 @@ marquee span{
     
       font-size: 1.5rem;
     }
+    
+    #showCipherB, #showCipherA{
+      font-size: 1.2rem;
+      padding: 0.2rem 0.5rem 0.2rem 1rem;
+   
+   }
+    
+   .bbtn i{
+    padding: 0.3rem 1.1rem;
+    font-size: 1.15rem;
+    
+  }
 
    }
 
@@ -372,6 +382,11 @@ marquee span{
       padding: 0.5rem 2rem;
       font-size: 1.3rem;
       margin-bottom: 1.2rem;
+    }
+    
+     #showCipherB, #showCipherA{
+      margin-top: -1.5rem;
+      margin-bottom: 1rem;
     }
     
  
