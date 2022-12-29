@@ -335,7 +335,7 @@ marquee span{
     width: 80%;
     margin: 5rem 10%;
     padding: 5rem 2rem;
-    height: 50rem;
+   
   }
 
   .content h2{
@@ -359,7 +359,8 @@ marquee span{
 @media (max-width: 425px){
   .content{
     width: 85%;
-    margin: 5rem 7.5%;
+    margin: 7rem 7.5% 5rem;
+    height: 55rem;
   }
 
   .content h2{
